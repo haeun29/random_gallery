@@ -1,0 +1,42 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    text-decoration: none;
+}
+
+body { 
+    font-family: 'Courier New', Courier, monospace;
+    background-image: 
+    url(./images/blackBox.png),
+    url(./images/image1.jpg);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.date { 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+
+section { 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+section h1 {
+    font-size: 48px;
+}
